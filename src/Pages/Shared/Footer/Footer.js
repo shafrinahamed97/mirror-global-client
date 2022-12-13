@@ -28,7 +28,7 @@ const Footer = () => {
         </div> 
         <div className='uppercase'>
             <span>news</span>
-            <Link>Testimonial</Link>
+            <Link className='link link-hover '>Testimonial</Link>
 
         </div>
 
