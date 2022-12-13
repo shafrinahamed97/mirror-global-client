@@ -5,7 +5,7 @@ import logo from '../../../assets/mirrorglobal.svg';
 const Header = () => {
     return (
         <div >
-           <div className="navbar bg-base-100 bg-gradient-to-r from-sky-500 to-indigo-500">
+           <div className="navbar bg-base-100  bg-gradient-to-r from-red-500 to-green-500">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -65,7 +65,7 @@ const Header = () => {
         
       </ul>
     </div>
-    <Link to='/'> <img src={logo} alt="" /> </Link>
+    <Link to='/'> <img className='h-12' src={logo} alt="" /> </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -123,7 +123,7 @@ const Header = () => {
   </div>
   <div className="navbar-end">
   <div className="tooltip tooltip-bottom" data-tip="9:30AM - 6:30PM">
-  <button className="btn btn-outline btn-success">Office-Time</button>
+  <button className=" btn-outline btn btn-ghost">Office-Time</button>
 </div>
   </div>
 </div>
