@@ -122,7 +122,9 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Opening Time: 9:30AM - 6:30PM</a>
+  <div className="tooltip tooltip-bottom" data-tip="9:30AM - 6:30PM">
+  <button className="btn btn-outline btn-success">Office-Time</button>
+</div>
   </div>
 </div>
         </div>
