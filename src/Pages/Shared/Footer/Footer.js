@@ -4,7 +4,7 @@ import logo from '../../../assets/mirrorglobal.svg';
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-base-200 text-base-content bg-gradient-to-r from-red-500 to-green-500">
+        <footer className="footer p-10 bg-base-200 text-base-content bg-gradient-to-r from-cyan-700 to-blue-700">
         <div>
           <Link to='/'><img className='h-12' src={logo} alt="mirror-global" /></Link>
           
