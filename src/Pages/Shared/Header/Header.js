@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/mirrorglobal.svg';
 
-const Header = () => {
+const Header = () => { 
     return (
         <div >
            <div className="mb-12 h-28 navbar bg-base-100  bg-gradient-to-r from-red-500 to-green-500">
