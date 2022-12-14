@@ -5,7 +5,7 @@ import logo from '../../../assets/mirrorglobal.svg';
 const Header = () => { 
     return (
         <div >
-           <div className="mb-12 h-20 mt-5 navbar bg-base-100  bg-gradient-to-r from-cyan-700 to-blue-700">
+           <div className="mb-12 h-20 pt-5 navbar bg-base-100  bg-gradient-to-r from-cyan-700 to-blue-700">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
