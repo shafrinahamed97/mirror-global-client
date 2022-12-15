@@ -6,9 +6,9 @@ import img3 from '../../../assets/effectiveVisaSolutaoin/effectivevisasolution_3
 const EffectiveVisaSolution = () => {
     return (
         <div>
-            <div className="carousel w-full mt-8">
-  <div id="item1" className="carousel-item w-full">
-    <img src={img1} className="w-full" />
+            <div className="carousel w-full mt-8 h-96">
+  <div id="item1" className="carousel-item w-full  ">
+    <img src={img1} className=" w-full " />
   </div> 
   <div id="item2" className="carousel-item w-full">
     <img src={img2} className="w-full" />
