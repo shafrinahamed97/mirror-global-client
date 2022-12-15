@@ -25,7 +25,7 @@ const EffectiveVisaSolution = () => {
     <div className="mt-12 absolute flex left-24 transform -translate-y-1/2 w-2/5 top-1/2 ">
     <button className="btn btn-outline btn-warning">Booking Now</button>
     </div>
-    <div className="absolute flex justify-end transform -translate-y-1/2 left-4 right-5 bottom-0">
+    <div className="absolute flex justify-center transform -translate-y-1/2 left-4 right-5 bottom-0">
       <a href="#_3" className="btn btn-circle mr-5">❮</a> 
       <a href="#_2" className="btn btn-circle">❯</a>
     </div>
@@ -34,7 +34,7 @@ const EffectiveVisaSolution = () => {
   <div className='carousel-img'>
     <img src={img2} className="w-screen h-96" />
     </div>
-    <div className="absolute flex justify-end transform -translate-y-1/2 left-24 top-1/4 ">
+    <div className="absolute flex justify-center transform -translate-y-1/2 left-24 top-1/4 ">
       <h1 className='text-2xl  font-bold text-blue-900  truncate capitalize'>
         effective visa solution <br />
         visa & immigration consultation
@@ -47,7 +47,7 @@ const EffectiveVisaSolution = () => {
     <div className="mt-12 absolute flex left-24 transform -translate-y-1/2 w-2/5 top-1/2 ">
     <button className="btn btn-outline btn-warning">Booking Now</button>
     </div>
-    <div className="absolute flex justify-end transform -translate-y-1/2 left-4 right-5 bottom-0">
+    <div className="absolute flex justify-center transform -translate-y-1/2 left-4 right-5 bottom-0">
       <a href="#_1" className="btn btn-circle mr-5">❮</a> 
       <a href="#_3" className="btn btn-circle">❯</a>
     </div>
@@ -56,7 +56,7 @@ const EffectiveVisaSolution = () => {
   <div className='carousel-img'>
     <img src={img3} className="w-screen h-96" />
     </div>
-    <div className="absolute flex justify-end transform -translate-y-1/2 left-24 top-1/4 ">
+    <div className="absolute flex justify-center transform -translate-y-1/2 left-24 top-1/4 ">
       <h1 className='text-2xl  font-bold text-blue-900  truncate capitalize'>
         effective visa solution <br />
         visa & immigration consultation
@@ -70,7 +70,7 @@ const EffectiveVisaSolution = () => {
     <button className="btn btn-outline btn-warning">Booking Now</button>
     </div>
     
-    <div className="absolute flex justify-end transform -translate-y-1/2 left-4 right-5 bottom-0">
+    <div className="absolute flex justify-center transform -translate-y-1/2 left-4 right-5 bottom-0">
       <a href="#_2" className="btn btn-circle mr-5">❮</a> 
       <a href="#_1" className="btn btn-circle">❯</a>
     </div>
