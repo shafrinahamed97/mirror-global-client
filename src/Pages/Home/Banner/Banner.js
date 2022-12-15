@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
     return (
          
-        <div className="carousel  h-2/6">
+        <div className="carousel mt-6  h-2/6">
   <div id="slide1" className="carousel-item relative w-full">
   <iframe className=' w-screen h-96'   src="https://www.youtube.com/embed/hpR5ycqEWQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div className="absolute flex justify-end transform -translate-y-1/2 left-4 right-5 bottom-0">
