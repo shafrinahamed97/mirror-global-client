@@ -7,9 +7,9 @@ import img4 from '../../../assets/ourteam//forida.jpg';
 
 const OurTeam = () => {
   return (
-    <div className='grid grid-cols-4 gap-4 pt-12 ml-4 mr-4 '>
+    <div className='grid lg:grid-cols-4 gap-4 pt-12 ml-4 mr-4 md:grid-cols-1  '>
        <div className="card  glass">
-  <figure className='h-80'><img src={img1} alt="car!"/></figure>
+  <figure className='lg:h-80 md:h-68'><img src={img1} alt="car!"/></figure>
   <div className="card-body">
     <h2 className="card-title uppercase">mahmud hasan</h2>
     <p className='capitalize '>founder & CEO</p>
