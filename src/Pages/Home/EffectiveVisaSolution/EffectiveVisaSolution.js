@@ -10,10 +10,10 @@ const EffectiveVisaSolution = () => {
             <div className="carousel w-full">
   <div id="_1" className="carousel-item relative w-full">
     <div className='carousel-img'>
-    <img src={img1} className="w-screen h-96" />
+    <img src={img1} alt='' className="w-screen h-96" />
     </div>
     <div className="absolute flex justify-end transform -translate-y-1/2 left-24 top-1/4 ">
-      <h1 className='text-2xl  font-bold text-blue-900   capitalize'>
+      <h1 className='text-2xl  font-bold text-blue-900 truncate   capitalize'>
         effective visa solution <br />
         visa & immigration consultation...
         <p>our professionalism, honestly, sincerity <br />and dedicated to client 
@@ -32,7 +32,7 @@ const EffectiveVisaSolution = () => {
   </div> 
   <div id="_2" className="carousel-item relative w-full">
   <div className='carousel-img'>
-    <img src={img2} className="w-screen h-96" />
+    <img src={img2} alt='' className="w-screen h-96" />
     </div>
     <div className="absolute flex justify-center transform -translate-y-1/2 left-24 top-1/4 ">
       <h1 className='text-2xl  font-bold text-blue-900  truncate capitalize'>
@@ -54,7 +54,7 @@ const EffectiveVisaSolution = () => {
   </div> 
   <div id="_3" className="carousel-item relative w-full">
   <div className='carousel-img'>
-    <img src={img3} className="w-screen h-96" />
+    <img src={img3} alt='' className="w-screen h-96" />
     </div>
     <div className="absolute flex justify-center transform -translate-y-1/2 left-24 top-1/4 ">
       <h1 className='text-2xl  font-bold text-blue-900  truncate capitalize'>
