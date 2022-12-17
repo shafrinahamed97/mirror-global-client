@@ -3,6 +3,7 @@ import img1 from '../../../assets/ourteam/masud.jpeg';
 import img2 from '../../../assets/ourteam/mohin.jpeg';
 import img3 from '../../../assets/ourteam/shamim.png';
 import img4 from '../../../assets/ourteam//forida.jpg';
+import { Link } from 'react-router-dom';
 
 
 const OurTeam = () => {
@@ -26,6 +27,11 @@ const OurTeam = () => {
     {/* <div className="card-actions justify-start">
       <button className="btn btn-primary">Learn now!</button>
     </div> */}
+    
+     <div>
+     
+   
+  </div>
   </div>
 </div>
 <div className="card  glass">
