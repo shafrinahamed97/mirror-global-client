@@ -3,14 +3,16 @@ import img1 from '../../../assets/ourteam/masud.jpeg';
 import img2 from '../../../assets/ourteam/mohin.jpeg';
 import img3 from '../../../assets/ourteam/shamim.png';
 import img4 from '../../../assets/ourteam//forida.jpg';
-import { Link } from 'react-router-dom';
+
 
 
 const OurTeam = () => {
+
+
   return (
        <div>
         <div tabIndex={0} className="glass text-center collapse  rounded-box  "> 
-  <div className="collapse-title text-xl font-medium text-4 xl">
+  <div className="collapse-title  font-medium text-3xl text-white">
     Our Team Members'
   </div>
   <div className="collapse-content"> 
@@ -27,6 +29,7 @@ const OurTeam = () => {
     {/* <div className="card-actions justify-start">
       <button className="btn btn-primary">Learn now!</button>
     </div> */}
+   
     
      <div>
      
