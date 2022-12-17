@@ -7,9 +7,19 @@ import img4 from '../../../assets/ourteam//forida.jpg';
 
 const OurTeam = () => {
   return (
+       <div>
+        <div tabIndex={0} className="glass text-center collapse  rounded-box  "> 
+  <div className="collapse-title text-xl font-medium text-4 xl">
+    Our Team Members'
+  </div>
+  <div className="collapse-content"> 
+    <p className='capitalize '>our team who are dedicatedly working with us </p>
+  </div>
+</div>
     <div className='grid lg:grid-cols-4 gap-4 pt-12 ml-4 mr-4 md:grid-cols-1  '>
+      
        <div className="card  glass">
-  <figure className='lg:h-80 md:h-68'><img src={img1} alt="car!"/></figure>
+  <figure className='lg:h-80 md:h-68'><img src={img1} alt="mirror_global_team"/></figure>
   <div className="card-body">
     <h2 className="card-title uppercase">mahmud hasan</h2>
     <p className='capitalize '>founder & CEO</p>
@@ -19,7 +29,7 @@ const OurTeam = () => {
   </div>
 </div>
 <div className="card  glass">
-  <figure className='h-80'><img src={img2} alt="car!"/></figure>
+  <figure className='lg:h-80 md:h-68'><img src={img2} alt="mirror_global_team"/></figure>
   <div className="card-body">
     <h2 className="card-title uppercase">mahin rashid</h2>
     <p className='capitalize '>managing director</p>
@@ -30,7 +40,7 @@ const OurTeam = () => {
 </div>
 
 <div className="card glass">
-  <figure className='h-80'><img src={img3} alt="car!"/></figure>
+  <figure className='lg:h-80 md:h-68'><img src={img3} alt="mirror_global_team"/></figure>
   <div className="card-body">
     <h2 className="card-title uppercase">md.kamruzzaman</h2>
     <p className='capitalize '>country manager</p>
@@ -40,7 +50,7 @@ const OurTeam = () => {
   </div>
 </div>
 <div className="card  glass">
-  <figure className='h-80'><img src={img4} alt="car!"/></figure>
+  <figure className='lg:h-80 md:h-68'><img src={img4} alt="mirror_global_team"/></figure>
   <div className="card-body">
     <h2 className="card-title uppercase">forida yasmin</h2>
     <p className='capitalize '>operation manager</p>
@@ -52,6 +62,7 @@ const OurTeam = () => {
 
 
 
+    </div>
     </div>
     
 
