@@ -1,9 +1,13 @@
 import React from 'react';
+import img_1 from '../../../../assets/featuredServices/pic1.jpg';
+import img_2 from '../../../../assets/featuredServices/pic2.jpg';
+import img_3 from '../../../../assets/featuredServices/pic3.jpg';
+import img_4 from '../../../.././assets/featuredServices/pic4.png';
 
 const FeaturedServices = () => {
     return (
        <div className='h-screen'>
-         <div className='h-1/6  glass'>
+         <div className='h-1/6  '>
            <h2 className='uppercase underline align-baseline text-white font-medium text-center'>featured services</h2>
 
            <h1 className='font-serif capitalize  font-bold text-white text-xl mt-4 text-center'>we provided visa & immigration service</h1>
@@ -11,7 +15,7 @@ const FeaturedServices = () => {
 
          <div className='h-4/6  '>
            
-             <div className=' flex h-full ml-6 '>
+             <div className=' flex h-full ml-24 '>
              <div className='w-2/5  '>
                  <h2 className='uppercase underline mt-8 text-xl text-white'>about mirror global associates</h2>
 
@@ -24,14 +28,15 @@ const FeaturedServices = () => {
                 <a role="button" className="btn btn-outline btn-ghost mt-12 ">read more</a>
 
               </div>
-
-              <div className='w-3/5 mr-6 mt-12 ' >
-                   <div className='grid grid-rows-3 grid-flow-col gap-4 h-full'>
-                   <div class="col-span-2 bg-gradient-to-r from-cyan-500 to-blue-500 .."><h1>This is pic-1</h1></div>
-                   <div class="row-span-3  bg-gradient-to-r from-purple-500 to-pink-500..."><h1>this is pic-2</h1></div>
-                   <div class="row-span-2 col-span-2.  bg-gradient-to-r from-violet-500 to-fuchsia-500."><h1>this is pic-3</h1></div>
-                   </div>
-              </div>
+              <div class="w-3/5 flex flex-col h-screen . ..">
+                 <div className='mt-20  h-1/3'><img className='w-3/5 ml-28 ' src={img_1} alt="" /></div>
+                 <div class="grid grid-cols-2  content-start h-2/3...">
+                        <div className='ml-12 mt-12'><img className='w-4/5 ml-10' src={img_2} alt="" /></div>
+                        <div className='mt-12'><img className='w-3/5 ' src={img_3} alt="" /></div>
+                        
+                      </div>
+                 </div>
+              
              </div>
 
              
