@@ -10,7 +10,7 @@ const OurTeam = () => {
 
 
   return (
-       <div className="mt-20 mb-20">
+       <div className="mt-20 mb-20  ">
         <div tabIndex={0} className="glass text-center collapse  rounded-box  "> 
   <div className="collapse-title  font-medium text-3xl text-white">
     Our Team Members'
