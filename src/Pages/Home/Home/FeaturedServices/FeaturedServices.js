@@ -21,12 +21,16 @@ const FeaturedServices = () => {
                 <h4 className='text-white mt-6 capitalize'>for the last 5 years, we have helped students', business person, <br />
                 clients with medical needs to acquire U.K. visas .</h4>
 
-                <a role="button" className="btn mt-12">read more</a>
+                <a role="button" className="btn btn-outline btn-ghost mt-12 ">read more</a>
 
               </div>
 
-              <div className='w-3/5 bg-gradient-to-r from-purple-500 to-pink-500' >
-                   <h2>this is picture photo section</h2>
+              <div className='w-3/5 mr-6 mt-12 ' >
+                   <div className='grid grid-rows-3 grid-flow-col gap-4 h-full'>
+                   <div class="col-span-2 bg-gradient-to-r from-cyan-500 to-blue-500 .."><h1>This is pic-1</h1></div>
+                   <div class="row-span-3  bg-gradient-to-r from-purple-500 to-pink-500..."><h1>this is pic-2</h1></div>
+                   <div class="row-span-2 col-span-2.  bg-gradient-to-r from-violet-500 to-fuchsia-500."><h1>this is pic-3</h1></div>
+                   </div>
               </div>
              </div>
 
