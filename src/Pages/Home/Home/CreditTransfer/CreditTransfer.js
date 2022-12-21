@@ -14,15 +14,16 @@ import world from '../../../../assets/creditTransfer/world.png';
 
 const creditTransfer = () => {
     return (
-        <div className='h-screen mt-12'>
-            <div className=' h-1/2'>
-               <div className='h-full flex ml-24 mr-24'>
+        <div className='h-screen '>
+            <div className=' h-1/2 '>
+               <div className='h-full flex ml-24 mr-24 '>
                 <div className='w-1/2 '>
                 <h1 className='uppercase underline underline-offset-4 mt-6 ml-6 text-white text-xl'>credit transfer</h1> <br />
                     <h2 className='capitalize ml-6 text-white font-bold text-2xl'>we're global partner <br /> of <br /> 580+ universities</h2>
-                    <h1 className='text-white ml-6 text-xl mt-6 font-bold'>we have helped students, business persons, tourists, clients with medical  needs to
+                    <h1 className='text-white ml-6 font-bold'>we have helped students, business persons, tourists, clients with medical  needs to
                     acquire US. visas. Besides, we also help with other family 
                     and provide counseling for immigration .</h1>
+                    <button className="btn glass mt-6 ml-6">more agencies</button>
                 </div>
                 <div className='w-1/2 '>
                     <img src={world} alt="world map" />
