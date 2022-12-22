@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import EffectiveVisaSolution from '../EffectiveVisaSolution/EffectiveVisaSolution';
+import BrowseCourses from './BrowseCourses/BrowseCourses';
 
 import CreditTransfer from './CreditTransfer/CreditTransfer';
 import FeaturedServices from './FeaturedServices/FeaturedServices';
@@ -15,6 +16,7 @@ const Home = () => {
             <Banner></Banner>
             <EffectiveVisaSolution></EffectiveVisaSolution>
             <FeaturedServices></FeaturedServices>
+            <BrowseCourses></BrowseCourses>
             <CreditTransfer></CreditTransfer>
             <OurTeam></OurTeam>
         </div>
