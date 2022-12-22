@@ -34,8 +34,68 @@ const creditTransfer = () => {
                         
                 
             </div>
-            <div className='bg-gradient-to-r from-red-500 to-green-500 h-1/2'>
-                 <h1>This is card + btn + carousel section</h1>
+            <div className='
+             h-1/2'>
+             <div className='ml-12 mt-6 '>
+             <div className="carousel w-full">
+  <div id="slide_1" className="carousel-item relative w-full ">
+    <div >
+    <img src={australia} className=" h-2/5 ml-24 mb-2" />
+    <div className='flex gap-4'>
+    <img src={aus_flag} className=" h-1/5 ml-24 w-1/3" alt="" />
+    <h1 className='uppercase text-white mt-3'>australia 32 universities</h1>
+    </div>
+    </div>
+    <div >
+    <img src={switzeland} className=" h-2/5 ml-24 mb-2" />
+    <div className='flex gap-4'>
+    <img src={swit_flag} className=" h-1/5 ml-24 w-1/3" alt="" />
+    <h1 className='uppercase text-white mt-3'>switzerland 32 universities</h1>
+    </div>
+    </div>
+    <div >
+    <img src={newzeland} className=" h-2/5 ml-24 mb-2" />
+    <div className='flex gap-4'>
+    <img src={news_flag} className=" h-1/5 ml-24 w-1/3" alt="" />
+    <h1 className='uppercase text-white mt-3'>new zealand 32 universities</h1>
+    </div>
+    </div>
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide_2" className="btn btn-circle">❮</a> 
+      <a href="#slide_2" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide_2" className="carousel-item relative w-full">
+  <div >
+    <img src={uk} className=" h-2/5 ml-24 mb-2" />
+    <div className='flex gap-4'>
+    <img src={uk_flag} className=" h-1/5 ml-24 w-1/3" alt="" />
+    <h1 className='uppercase text-white mt-3'>united kingdom 33 universities</h1>
+    </div>
+    </div>
+    <div >
+    <img src={usa} className=" h-2/5 ml-24 mb-2" />
+    <div className='flex gap-4'>
+    <img src={usa_flag} className=" h-1/5 ml-24 w-1/3" alt="" />
+    <h1 className='uppercase text-white mt-3'>united states 58 universities</h1>
+    </div>
+    </div>
+    <div >
+    <img src={newzeland} className=" h-2/5 ml-24 mb-2" />
+    <div className='flex gap-4'>
+    <img src={news_flag} className=" h-1/5 ml-24 w-1/3" alt="" />
+    <h1 className='uppercase text-white mt-3'>new zealand 32 universities</h1>
+    </div>
+    </div>
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide_1" className="btn btn-circle">❮</a> 
+      <a href="#slide_1" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  
+  
+</div>
+             </div>
             </div>
         </div>
     );
