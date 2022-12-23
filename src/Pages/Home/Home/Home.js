@@ -5,6 +5,7 @@ import BrowseCourses from './BrowseCourses/BrowseCourses';
 
 import CreditTransfer from './CreditTransfer/CreditTransfer';
 import FeaturedServices from './FeaturedServices/FeaturedServices';
+import OnlineVisaImmigration from './OnlineVisaImmigration/OnlineVisaImmigration';
 import OurTeam from './OurTeam';
 import StudySeason from './StudySeason/StudySeason';
 
@@ -14,6 +15,7 @@ const Home = () => {
             
             <StudySeason></StudySeason>
             <Banner></Banner>
+            <OnlineVisaImmigration></OnlineVisaImmigration>
             <EffectiveVisaSolution></EffectiveVisaSolution>
             <FeaturedServices></FeaturedServices>
             <BrowseCourses></BrowseCourses>
