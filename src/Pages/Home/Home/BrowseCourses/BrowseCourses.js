@@ -14,7 +14,7 @@ const BrowseCourses = () => {
                           <div className='mt-6'>
                           <div className="card  glass">
   
-  <div className="card-body">
+  <div className="card-body hover:bg-yellow-700">
     <h2 className="card-title capitalize">diploma programs</h2>
     <p className='capitalize text-base'>diploma programs with other family based and investment
      finally has got immigration with job</p>
@@ -33,7 +33,7 @@ const BrowseCourses = () => {
                           <div className='mt-6'>       
                             <div className="card  glass">
   
-                <div className="card-body">
+                <div className="card-body hover:bg-yellow-700">
               <h2 className="card-title capitalize">graduate programs</h2>
             <p className='capitalize text-base'>diploma programs with other family based and investment
               finally has got immigration with job</p>
@@ -49,7 +49,7 @@ const BrowseCourses = () => {
                    <div className='mt-6'>      
                              <div className="card  glass">
   
-          <div className="card-body">
+          <div className="card-body hover:bg-yellow-700">
        <h2 className="card-title capitalize">undergraduate programs</h2>
         <p className='capitalize text-base'>diploma programs with other family based and investment
         finally has got immigration with job</p>
@@ -66,7 +66,7 @@ const BrowseCourses = () => {
      <div>      
     <div className=''>      
        <div className="card  glass">
-       <div className="card-body">
+       <div className="card-body hover:bg-yellow-700">
        <h2 className="card-title capitalize">postgraduate programs</h2>
         <p className='capitalize text-base'>diploma programs with other family based and investment
         finally has got immigration with job</p>
@@ -83,7 +83,7 @@ const BrowseCourses = () => {
          <div className=''>      
                             
      <div className="card  glass">
-     <div className="card-body">
+     <div className="card-body hover:bg-yellow-700">
        <h2 className="card-title capitalize">research programs</h2>
         <p className='capitalize text-base'>diploma programs with other family based and investment
         finally has got immigration with job</p>
@@ -98,7 +98,7 @@ const BrowseCourses = () => {
                           <div>      <div className=''>      
                              <div className="card  glass">
   
-          <div className="card-body">
+          <div className="card-body hover:bg-yellow-700">
        <h2 className="card-title capitalize">PHD programs</h2>
         <p className='capitalize text-base'>diploma programs with other family based and investment
         finally has got immigration with job</p>
