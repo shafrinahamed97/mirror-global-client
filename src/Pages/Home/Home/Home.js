@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import EffectiveVisaSolution from '../EffectiveVisaSolution/EffectiveVisaSolution';
 import ExploreScope from '../ExploreScope/ExploreScope';
+import HowWeWork from '../HowWeWork/HowWeWork';
 import BrowseCourses from './BrowseCourses/BrowseCourses';
 
 import CreditTransfer from './CreditTransfer/CreditTransfer';
@@ -20,6 +21,7 @@ const Home = () => {
             <EffectiveVisaSolution></EffectiveVisaSolution>
             <FeaturedServices></FeaturedServices>
             <ExploreScope></ExploreScope>
+            <HowWeWork></HowWeWork>
             <BrowseCourses></BrowseCourses>
             <CreditTransfer></CreditTransfer>
             <OurTeam></OurTeam>

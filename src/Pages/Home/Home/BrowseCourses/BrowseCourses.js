@@ -2,7 +2,7 @@ import React from 'react';
 
 const BrowseCourses = () => {
     return (
-        <div className=' h-screen'>
+        <div className=' h-screen mt-36'>
             <div className=' h-1/6'>
 
                 <h2 className='text-white text-xl uppercase underline text-center mt-6 underline-offset-2 '>browse courses</h2>
