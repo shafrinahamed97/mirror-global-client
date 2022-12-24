@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import EffectiveVisaSolution from '../EffectiveVisaSolution/EffectiveVisaSolution';
+import ExploreScope from '../ExploreScope/ExploreScope';
 import BrowseCourses from './BrowseCourses/BrowseCourses';
 
 import CreditTransfer from './CreditTransfer/CreditTransfer';
@@ -18,6 +19,7 @@ const Home = () => {
             <OnlineVisaImmigration></OnlineVisaImmigration>
             <EffectiveVisaSolution></EffectiveVisaSolution>
             <FeaturedServices></FeaturedServices>
+            <ExploreScope></ExploreScope>
             <BrowseCourses></BrowseCourses>
             <CreditTransfer></CreditTransfer>
             <OurTeam></OurTeam>
