@@ -10,13 +10,13 @@ const ExploreScope = () => {
         <div className='h-30  '>
            <div class="grid lg:grid-cols-4 gap-4 pt-12 ml-4 mr-4 md:grid-cols-1 ">
            <div>
-            <div className="card w-64  text-primary-content hover:bg-yellow-600">
+            <div className="card w-64  text-primary-content hover:glass">
             <div className="card-body">
             <div>
-                <img src={scope} alt="" />
+                <img className='hover:bg-white' src={scope} alt="" />
                 <div>
-                <h2 className="card-title text-2xl uppercase">explore scope</h2>
-            <p className='capitalize'>you can browse more than 71,000 master's programs from all over the world .</p>
+                <h2 className="card-title text-2xl uppercase hover:text-black">explore scope</h2>
+            <p className='capitalize hover:text-black hover:uppercase'>you can browse more than 71,000 master's programs from all over the world .</p>
                 </div>
 
             </div>
@@ -27,13 +27,13 @@ const ExploreScope = () => {
          </div>
            <div>
             <div>
-            <div className="card  w-64 text-primary-content hover:bg-yellow-600">
+            <div className="card  w-64 text-primary-content hover:glass">
             <div className="card-body">
            <div>
-            <img src={comparechanges} alt="" />
+            <img className='hover:bg-white' src={comparechanges} alt="" />
             <div>
-            <h2 className="card-title  text-2xl uppercase">compare chances</h2>
-            <p className='capitalize'>you can browse more than 71,000 master's programs from all over the world .</p>
+            <h2 className="card-title  text-2xl uppercase hover:text-black">compare chances</h2>
+            <p className='capitalize hover:uppercase hover:text-black'>you can browse more than 71,000 master's programs from all over the world .</p>
             </div>
            </div>
               
@@ -43,14 +43,14 @@ const ExploreScope = () => {
          </div>
          </div>
           <div><div>
-            <div className="card w-64  text-primary-content hover:bg-yellow-600">
+            <div className="card w-64  text-primary-content hover:glass">
             <div className="card-body">
             <div>
-                <img src={takedecision} alt="" />
+                <img className='hover:bg-white' src={takedecision} alt="" />
 
                 <div>
-                <h2 className="card-title  uppercase">take decision</h2>
-            <p className='capitalize'> now you have your top programs shortlisted, you can pick the ones that fit you the best</p>
+                <h2 className="card-title  uppercase hover:text-black">take decision</h2>
+            <p className='capitalize hover:uppercase hover:text-black'> now you have your top programs shortlisted, you can pick the ones that fit you the best</p>
                 </div>
             </div>
               
@@ -60,13 +60,13 @@ const ExploreScope = () => {
          </div>
          </div>
          <div><div>
-            <div className="card w-64  text-primary-content hover:bg-yellow-600">
+            <div className="card w-64  text-primary-content hover:glass">
             <div className="card-body">
             <div>
-                <img src={goal} alt="" />
-                <div>
-                <h2 className="card-title uppercase">apply goals</h2>
-            <p className='capitalize'> when can you feel confident about your program choice, now you can apply confidently .</p>
+                <img src={goal} className="hover:bg-white" alt="" />
+                <div >
+                <h2 className="card-title uppercase hover:text-black">apply goals</h2>
+            <p className='capitalize hover:uppercase hover:text-black'> when can you feel confident about your program choice, now you can apply confidently .</p>
                 </div>
             </div>
           
