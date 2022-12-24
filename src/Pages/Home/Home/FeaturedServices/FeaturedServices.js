@@ -6,7 +6,7 @@ import img_4 from '../../../.././assets/featuredServices/pic4.png';
 
 const FeaturedServices = () => {
     return (
-       <div className='h-screen'>
+       <div className='h-screen '>
          <div className='h-1/6  '>
            <h2 className='uppercase underline align-baseline text-white font-medium text-center'>featured services</h2>
 

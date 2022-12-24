@@ -19,7 +19,7 @@ const ExploreScope = () => {
             <p className='capitalize hover:text-black hover:uppercase'>you can browse more than 71,000 master's programs from all over the world .</p>
                 </div>
 
-            </div>
+            </div> 
               
           
       </div>

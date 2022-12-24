@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
+import EducationService from '../EducationService/EducationService';
 import EffectiveVisaSolution from '../EffectiveVisaSolution/EffectiveVisaSolution';
 import ExploreScope from '../ExploreScope/ExploreScope';
 import HowWeWork from '../HowWeWork/HowWeWork';
@@ -23,6 +24,7 @@ const Home = () => {
             <ExploreScope></ExploreScope>
             <HowWeWork></HowWeWork>
             <BrowseCourses></BrowseCourses>
+            <EducationService></EducationService>
             <CreditTransfer></CreditTransfer>
             <OurTeam></OurTeam>
         </div>
