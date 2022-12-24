@@ -10,7 +10,7 @@ const ExploreScope = () => {
         <div className='h-30  '>
            <div class="grid lg:grid-cols-4 gap-4 pt-12 ml-4 mr-4 md:grid-cols-1 ">
            <div>
-            <div className="card w-64  text-primary-content hover:bg-black">
+            <div className="card w-64  text-primary-content hover:bg-yellow-600">
             <div className="card-body">
             <div>
                 <img src={scope} alt="" />
@@ -27,7 +27,7 @@ const ExploreScope = () => {
          </div>
            <div>
             <div>
-            <div className="card  w-64 text-primary-content hover:bg-black">
+            <div className="card  w-64 text-primary-content hover:bg-yellow-600">
             <div className="card-body">
            <div>
             <img src={comparechanges} alt="" />
@@ -43,7 +43,7 @@ const ExploreScope = () => {
          </div>
          </div>
           <div><div>
-            <div className="card w-64  text-primary-content hover:bg-black">
+            <div className="card w-64  text-primary-content hover:bg-yellow-600">
             <div className="card-body">
             <div>
                 <img src={takedecision} alt="" />
@@ -60,7 +60,7 @@ const ExploreScope = () => {
          </div>
          </div>
          <div><div>
-            <div className="card w-64  text-primary-content hover:bg-black">
+            <div className="card w-64  text-primary-content hover:bg-yellow-600">
             <div className="card-body">
             <div>
                 <img src={goal} alt="" />

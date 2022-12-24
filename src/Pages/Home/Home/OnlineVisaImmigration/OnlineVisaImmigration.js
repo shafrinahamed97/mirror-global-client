@@ -1,4 +1,9 @@
 import React from 'react';
+import onlinevisa from '../../../../assets/icon/onlinevisaapplication.png';
+import visainformation from '../../../../assets/icon/visainformation.png';
+import immigration from '../../../../assets/icon/immigration.png';
+import onlineapplication from '../../../../assets/icon/onlineapplication.png';
+
 
 const OnlineVisaImmigration = () => {
     return (
@@ -7,6 +12,7 @@ const OnlineVisaImmigration = () => {
            <div>
             <div className="card w-64  text-primary-content hover:bg-yellow-700">
             <div className="card-body">
+              <img src={onlinevisa} alt="" />
             <h2 className="card-title text-2xl capitalize">online visa application</h2>
               
           
@@ -17,6 +23,7 @@ const OnlineVisaImmigration = () => {
             <div>
             <div className="card  w-64 text-primary-content hover:bg-yellow-700 ">
             <div className="card-body">
+              <img src={visainformation} alt="" />
             <h2 className="card-title  text-2xl capitalize">visa information</h2>
               
           
@@ -27,6 +34,7 @@ const OnlineVisaImmigration = () => {
           <div><div>
             <div className="card w-64  text-primary-content hover:bg-yellow-700 ">
             <div className="card-body">
+              <img src={immigration} alt="" />
             <h2 className="card-title capitalize capitalize">immigration resources</h2>
               
           
@@ -37,6 +45,7 @@ const OnlineVisaImmigration = () => {
          <div><div>
             <div className="card w-64  text-primary-content hover:bg-yellow-700">
             <div className="card-body">
+              <img src={onlineapplication} alt="" />
             <h2 className="card-title capitalize">online passport application</h2>
           
       </div>
