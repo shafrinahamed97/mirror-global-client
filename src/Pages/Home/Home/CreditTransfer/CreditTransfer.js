@@ -14,7 +14,7 @@ import world from '../../../../assets/creditTransfer/world.png';
 
 const creditTransfer = () => {
     return (
-        <div className='h-screen mt-24'>
+        <div className='h-screen mt-32'>
             <div className=' h-1/2 '>
                <div className='h-full flex ml-24 mr-24 '>
                 <div className='w-1/2 '>

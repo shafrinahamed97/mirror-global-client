@@ -4,6 +4,7 @@ import EducationService from '../EducationService/EducationService';
 import EffectiveVisaSolution from '../EffectiveVisaSolution/EffectiveVisaSolution';
 import ExploreScope from '../ExploreScope/ExploreScope';
 import HowWeWork from '../HowWeWork/HowWeWork';
+import RecentUpdateOfVisa from '../RecentUpdateOfVisa/RecentUpdateOfVisa';
 import BrowseCourses from './BrowseCourses/BrowseCourses';
 
 import CreditTransfer from './CreditTransfer/CreditTransfer';
@@ -27,6 +28,7 @@ const Home = () => {
             <EducationService></EducationService>
             <CreditTransfer></CreditTransfer>
             <OurTeam></OurTeam>
+            <RecentUpdateOfVisa></RecentUpdateOfVisa>
         </div>
     );
 };
